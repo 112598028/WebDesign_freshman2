@@ -1,0 +1,30 @@
+@charset "utf-8";
+.webbox {
+	width: 98%;
+}
+nav {
+	height: 57px;
+	background-color: #1B806D;
+}
+main {
+	background-color: #0E9380;
+}
+footer {
+	height: 80px;
+	background-color: #355950;
+}
+.button {
+	background-color: #A4BEE3; /* Green */
+	border: 1px solid green;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	float: left;
+}
+
+.button:hover {
+	background-color: #6B9CDD;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>手风琴demo</title>
+
+<link href="accoridion.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.indexSlidePattern.js"></script>
+<script language="javascript">
+$(document).ready(function(e){
+	  var opt	=	{
+		"speed"	:	"fast"		,	//变换速度,三速度可选 slow,normal,fast;
+		"by"	:	"mouseover"		,	//触发事件,click或者mouseover;
+		"auto"	:	true		,	//是否自动播放;
+		"sec"	:	3000	 		//自动播放间隔;
+	  };
+      $("#demo").IMGDEMO(opt);    
+});
+	</script>
+
+
+</head>
+<body>
+
+
+<ul id="demo">
+	<li class="active">
+		<a href="http://tw.yahoo.com/"><img src="images/1.jpg"  /></a>
+		<div><a href="http://tw.yahoo.com/">标题1</div>
+	</li>
+	<li>
+		<a href="http://www.youtube.com/"><img src="images/2.jpg"  /></a>
+		<div><a href="http://tw.yahoo.com/">2题</div>
+	</li>
+	<li>
+		<a href="http://www.sucaijiayuan.com/"><img src="images/3.jpg"  /></a>
+		<div><a href="http://www.sucaijiayuan.com/">3</a></div>
+	</li>
+	<li>
+		<a href="http://www.sucaijiayuan.com/"><img src="images/4.jpg"  /></a>
+		<div><a href="http://www.sucaijiayuan.com/">4</a></div>
+	</li>
+	<li>
+		<a href="http://www.sucaijiayuan.com/"><img src="images/5.jpg"  /></a>
+		<div><a href="http://tw.yahoo.com/">5</a></div>
+	</li>
+    
+</ul>
+
+</body>
+</html>

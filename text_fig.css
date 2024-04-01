@@ -1,0 +1,29 @@
+@charset "utf-8";
+.title01 {
+	color: #C4EFE1;
+	font-size: 16px;
+}
+.content01 {
+	font-size: 14px;
+}
+.text01 {
+	font-weight: bold;
+	font-size: 17px;
+	color: #13ACD3;
+	background-color: #D4B8B9;
+}
+.pic01 {
+	margin: 20px;
+	padding: 5px;
+	border: thick groove #DFC366;
+	float: right;
+}
+.pic02 {
+	margin: 20px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	border: thick groove #DFC366;
+	float: left;
+}
